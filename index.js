@@ -12,8 +12,8 @@ async function run() {
 
 
   const teams = octokit.repos.listTeams({
-    github.context.payload.organization.login,
-    github.context.payload.repository.name
+    owner: github.context.payload.organization.login,
+    repo: github.context.payload.repository.name
   });
 
 
