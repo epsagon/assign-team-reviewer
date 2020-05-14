@@ -11,7 +11,7 @@ async function run() {
   const octokit = new github.GitHub(orgToken);
 
 
-  const teams = octokit.repos.listTeams({
+  const teams = await octokit.repos.listTeams({
     owner: github.context.payload.organization.login,
     repo: github.context.payload.repository.name
   });
