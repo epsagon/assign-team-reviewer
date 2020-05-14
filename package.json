@@ -1,0 +1,12 @@
+{
+  "name": "assign-team-reviewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:epsagon/assign-team-reviewer.git",
+  "author": "Gal Bashan <gal@epsagon.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0"
+  }
+}

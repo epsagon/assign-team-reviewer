@@ -1,0 +1,9 @@
+name: 'Review Assigner'
+description: 'Sets the team to review'
+inputs:
+  orgToken:  # id of input
+    description: 'organization token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
